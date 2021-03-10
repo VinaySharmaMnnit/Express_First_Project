@@ -14,7 +14,7 @@ app.use((req,res,next)=>{
     next();
 })
 const users=[
-    {'name':'Vinay','age':21},
+    {'name':'Ram','age':21},
     {'name':'Om','age':22}
 ]
 
