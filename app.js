@@ -57,6 +57,13 @@ app.get('/users/:name',(req,res)=>{
     else res.status(404).send("Not found");
 })
 
+app.get('/projects',(req,res)=>{
+    res.render('projects.hbs',{
+        PageTitle:'Portfolio page',
+
+    })
+})
+
 app.get('/posts/:title',(req,res)=>{
     console.log(req.query);
 }
